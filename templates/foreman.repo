@@ -1,0 +1,27 @@
+[foreman-plugins]
+name=Foreman plugins 1.7
+baseurl=http://yum.theforeman.org/plugins/1.7/el6/x86_64
+enabled=1
+gpgcheck=0
+gpgkey=http://yum.theforeman.org/releases/1.7/RPM-GPG-KEY-foreman
+
+[foreman-plugins-source]
+name=Foreman plugins 1.7 - source
+baseurl=http://yum.theforeman.org/plugins/1.7/el6/source
+enabled=0
+gpgcheck=0
+gpgkey=http://yum.theforeman.org/releases/1.7/RPM-GPG-KEY-foreman
+
+[foreman]
+name=Foreman 1.7
+baseurl=http://yum.theforeman.org/releases/1.7/el6/x86_64
+enabled=1
+gpgcheck=1
+gpgkey=http://yum.theforeman.org/releases/1.7/RPM-GPG-KEY-foreman
+
+[foreman-source]
+name=Foreman 1.7 - source
+baseurl=http://yum.theforeman.org/releases/1.7/el6/source
+enabled=0
+gpgcheck=1
+gpgkey=http://yum.theforeman.org/releases/1.7/RPM-GPG-KEY-foreman

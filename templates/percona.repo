@@ -1,0 +1,72 @@
+########################################
+# Percona releases and sources, stable #
+########################################
+[percona-release-x86_64]
+name = Percona-Release YUM repository - x86_64
+baseurl = http://repo.percona.com/release/centos/6/RPMS/x86_64
+enabled = 1
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-release-noarch]
+name = Percona-Release YUM repository - noarch
+baseurl = http://repo.percona.com/release/centos/6/RPMS/noarch
+enabled = 1
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-release-source]
+name = Percona-Release YUM repository - Source packages
+baseurl = http://repo.percona.com/release/centos/6/SRPMS
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+####################################################################
+# Testing & pre-release packages. You don't need it for production #
+####################################################################
+[percona-testing-x86_64]
+name = Percona-Testing YUM repository - x86_64
+baseurl = http://repo.percona.com/testing/centos/6/RPMS/x86_64
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-testing-noarch]
+name = Percona-Testing YUM repository - noarch
+baseurl = http://repo.percona.com/testing/centos/6/RPMS/noarch
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-testing-source]
+name = Percona-Testing YUM repository - Source packages
+baseurl = http://repo.percona.com/testing/centos/6/SRPMS
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+############################################
+# Experimental packages, use with caution! #
+############################################
+[percona-experimental-x86_64]
+name = Percona-Experimental YUM repository - x86_64
+baseurl = http://repo.percona.com/experimental/centos/6/RPMS/x86_64
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-experimental-noarch]
+name = Percona-Experimental YUM repository - noarch
+baseurl = http://repo.percona.com/experimental/centos/6/RPMS/noarch
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+
+[percona-experimental-source]
+name = Percona-Experimental YUM repository - Source packages
+baseurl = http://repo.percona.com/experimental/centos/6/SRPMS
+enabled = 0
+gpgcheck = 1
+gpgkey = https://www.percona.com/downloads/RPM-GPG-KEY-percona
+

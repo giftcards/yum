@@ -1,0 +1,4 @@
+[drivesrvr]
+name=drivesrvr
+baseurl=http://agentrepo.drivesrvr.com/redhat/
+enabled=1
